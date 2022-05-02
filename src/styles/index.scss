@@ -2,9 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Permanent+Marker&family=Roboto+Mono:wght@300;500;700&display=swap');
+
 @import './core/font';
 
 /*
   Components
 */
 @import './components/text';
+
+body::-webkit-scrollbar,
+div::-webkit-scrollbar {
+  background: #f2f2f2;
+}
+
+body::-webkit-scrollbar-track,
+div::-webkit-scrollbar-track {
+  background: #f2f2f2;
+}
+
+body::-webkit-scrollbar-thumb,
+div::-webkit-scrollbar-thumb {
+  background: #d0d0d0;
+}
+
+h1 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: "26px";
+}

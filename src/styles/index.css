@@ -1,3 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Permanent+Marker&family=Roboto+Mono:wght@300;500;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: "HelveticaNeue";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../fonts/HelveticaNeue.ttf") format("truetype");
+}
+
+/*
+  Components
+*/
+.text-justify-full {
+  text-align: justify;
+}
+
+.text-justify-full:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+body::-webkit-scrollbar,
+div::-webkit-scrollbar {
+  background: #f2f2f2;
+}
+
+body::-webkit-scrollbar-track,
+div::-webkit-scrollbar-track {
+  background: #f2f2f2;
+}
+
+body::-webkit-scrollbar-thumb,
+div::-webkit-scrollbar-thumb {
+  background: #d0d0d0;
+}
+
+h1 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: "26px";
+}
+/*# sourceMappingURL=index.css.map */
